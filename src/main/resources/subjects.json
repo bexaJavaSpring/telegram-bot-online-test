@@ -1,0 +1,464 @@
+[
+  {
+    "id": 1,
+    "name": "Java Fundamentals",
+    "mark": 2.0,
+    "testPrice": 15000.0,
+    "tests": [
+      {
+        "id": 1,
+        "name": "How can you achieve runtime polymorphism in Java?",
+        "correctAnswer": {
+          "id": 2,
+          "body": " method overriding",
+          "isCorrect": true
+        },
+        "answers": [
+          {
+            "id": 1,
+            "body": " method calling",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": " method overriding",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "body": " method overrunning",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": " method overloading",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Which of the following can replace the CODE SNIPPET to make the code below print \"Hello World\"?\n``` interface Interface1 {\n    static void print() {\n        System.out.print(\"Hello\");\n    }\n}\n\ninterface Interface2 {\n    static void print() {\n        System.out.print(\"World!\");\n    }\n} ```",
+        "correctAnswer": {
+          "id": 1,
+          "body": "```Interface1.print(); Interface2.print();```",
+          "isCorrect": true
+        },
+        "answers": [
+          {
+            "id": 1,
+            "body": "`Interface1.print(); Interface2.print();`",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "body": "`super.print();`",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "`this.print();`",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": "`super1.print(); super2.print();`",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Which class can compile given these declarations?\n ``` interface One {\n    default void method() {\n        System.out.println(\"One\");\n    }\n}\n\ninterface Two {\n    default void method () {\n        System.out.println(\"One\");\n    }\n} ```",
+        "correctAnswer": {
+          "id": 2,
+          "body": "```class Three implements One, Two {\n    public void method() {\n        super.One.method();\n    }\n}```",
+          "isCorrect": true
+        },
+        "answers": [
+          {
+            "id": 1,
+            "body": "```class Three implements One, Two {\n    public void method() {\n        One.method();\n    }\n}```",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "```class Three implements One, Two {\n    public void method() {\n        super.One.method();\n    }\n}```",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "body": "`class Three implements One, Two {\n}`",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": "```class Three implements One, Two {\n    public void method() {\n        One.super.method();\n    }\n}```",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "What is the output of this code?\n ```class Main {\n    public static void main (String[] args) {\n        List list \u003d new ArrayList();\n        list.add(\"hello\");\n        list.add(2);\n        System.out.print(list.get(0) instanceof Object);\n        System.out.print(list.get(1) instanceof Integer);\n    }\n}```",
+        "correctAnswer": {
+          "id": 3,
+          "body": "truetrue",
+          "isCorrect": true
+        },
+        "answers": [
+          {
+            "id": 1,
+            "body": "The code does not compile.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "truefalse",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "truetrue",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "body": "falsetrue",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "PHP Fundamentals",
+    "mark": 2.0,
+    "testPrice": 1500.0,
+    "tests": []
+  },
+  {
+    "id": 4,
+    "name": "Python",
+    "mark": 5.0,
+    "testPrice": 0.0,
+    "tests": [
+      {
+        "id": 1,
+        "name": "Python",
+        "answers": [
+          {
+            "id": 1,
+            "body": "A",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "body": "B",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "C",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": "D",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ENGLISH",
+    "mark": 7.0,
+    "testPrice": 0.0,
+    "tests": [
+      {
+        "id": 1,
+        "name": "Can I park here?(Choose the answer which correctly the question)",
+        "answers": [
+          {
+            "id": 1,
+            "body": "Sorry,I did it",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "Was it pretty well?",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "Only for half an hour.",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "body": "It\u0027s the sam place",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "I forgot...... the lights before I left",
+        "answers": [
+          {
+            "id": 1,
+            "body": "turning off",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "put off",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "to turn off",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "body": "shot",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "I\u0027d ............ go to bed than watch the late night movie.\n I ..... quite tired this evening.",
+        "answers": [
+          {
+            "id": 1,
+            "body": "rather not",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "body": "rather",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "like",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": "prefer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Suzie and John are planning to get merried and...... a lot of children.",
+        "answers": [
+          {
+            "id": 1,
+            "body": "get",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "have",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "body": "bring",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": "make",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Car______ crushed_____ me",
+        "answers": [
+          {
+            "id": 1,
+            "body": "is,with",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "have,by",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "is,by",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "body": "are,at",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "He plays soccer,.....?",
+        "answers": [
+          {
+            "id": 1,
+            "body": "does he",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "don\u0027t he",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "doesn\u0027t he",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "body": "isn\u0027t he",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Peter..... fly to San Francisco tomorrow.",
+        "answers": [
+          {
+            "id": 1,
+            "body": "is going to",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "body": "goes to",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "to going",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": "go to",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "__________, it\u0027s you or not, you must pay for it!",
+        "answers": [
+          {
+            "id": 1,
+            "body": "Howewer much",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "Although",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "It doesn\u0027t matter",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "body": "Whatever",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "You ....... all go to London next weekend.",
+        "answers": [
+          {
+            "id": 1,
+            "body": "are",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "can",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "body": "must",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": "need",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "My uncle saw______ in the old photo book.",
+        "answers": [
+          {
+            "id": 1,
+            "body": "itself",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "body": "themselves",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "body": "herself",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "body": "himself",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "name": "Nimaga qaraysiz? Odam ko\u0027rmaganmisiz?😂😂",
+        "answers": [
+          {
+            "body": "darak gap",
+            "isCorrect": true
+          },
+          {
+            "body": "so\u0027roq gap",
+            "isCorrect": false
+          },
+          {
+            "body": "majhul gap",
+            "isCorrect": false
+          },
+          {
+            "body": "bu savol ingliz tilidamas",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "id": 2080721911,
+    "firstName": "Bexruz Izzatullayev B-9",
+    "phoneNumber": "+998906355276",
+    "lastRound": 0,
+    "currentRound": 0,
+    "isAuth": true,
+    "testStep": 0,
+    "state": "DEFAULT",
+    "tempCode": "6018"
+  },
+  {
+    "id": 958536406,
+    "firstName": "Izzatullayev Behruz B-9",
+    "phoneNumber": "+998936207516",
+    "lastRound": 1,
+    "currentRound": 2,
+    "isAuth": false,
+    "testStep": 0,
+    "state": "DEFAULT",
+    "test": {
+      "name": ".. you break your hand?",
+      "answers": [
+        {
+          "body": "do",
+          "isCorrect": true
+        },
+        {
+          "body": "are",
+          "isCorrect": false
+        },
+        {
+          "body": "will",
+          "isCorrect": false
+        },
+        {
+          "body": "did",
+          "isCorrect": false
+        }
+      ]
+    }
+  },
+  {
+    "id": 762677107,
+    "lastRound": 0,
+    "currentRound": 0,
+    "isAuth": false,
+    "testStep": 0,
+    "state": "DEFAULT"
+  },
+  {
+    "id": 1433768599,
+    "firstName": "Mirjon",
+    "phoneNumber": "998883006066",
+    "lastRound": 0,
+    "currentRound": 0,
+    "isAuth": false,
+    "testStep": 0,
+    "state": "DEFAULT",
+    "tempCode": "9385"
+  },
+  {
+    "id": 1966876778,
+    "firstName": "Alisher",
+    "phoneNumber": "998997022564",
+    "lastRound": 0,
+    "currentRound": 0,
+    "isAuth": true,
+    "testStep": 0,
+    "state": "DEFAULT",
+    "tempCode": "9050"
+  },
+  {
+    "id": 5035813654,
+    "firstName": "...",
+    "phoneNumber": "+998331962412",
+    "lastRound": 1,
+    "currentRound": 2,
+    "isAuth": true,
+    "testStep": 0,
+    "state": "DEFAULT",
+    "tempCode": "3856"
+  }
+]
